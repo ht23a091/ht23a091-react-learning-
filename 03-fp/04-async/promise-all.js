@@ -18,7 +18,7 @@ const promises = [promiseN(3), promiseN(2), promiseN(1)];
 let results = [];
 
 try {
-    results = await Promise.all(promises);
+    results = await Promise.allSettled(promises);
 } catch (error) {
     console.log("Error: " + error.message);
 }
