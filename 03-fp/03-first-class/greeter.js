@@ -21,5 +21,5 @@ greet2();
 
 // 簡略化2
 const greeter3 = (target) => () => { console.log(`Hi, ${target}!`); };
-const greet3 = greeter2('B');
+const greet3 = greeter3('B');
 greet3();
