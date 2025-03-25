@@ -4,6 +4,7 @@
       "module": "CommonJS",
       "forceConsistentCasingInFileNames": true,
       "noImplicitAny": true,
-      "skipLibCheck": true
+      "skipLibCheck": true,
+      "strictNullChecks": true,
     }
   }
