@@ -6,4 +6,4 @@ const permissions = {
 
 type PermChar = keyof typeof permissions;
 const readable: PermChar = 'r';
-const writable: ParmChar = 'z';
+// const writable: ParmChar = 'z';
