@@ -14,6 +14,14 @@ function App() {
 
   const List = ['Patty', 'Rolley', 'Bobby'];
 
+  const elems = (
+    <>
+      <div>foo</div>
+      <div>bar</div>
+      <div>baz</div>
+    </>
+  );
+
   return (
     <>
       <div>
