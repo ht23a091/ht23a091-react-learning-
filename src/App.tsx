@@ -5,14 +5,22 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  
+
   const name = "Patty";
   const greet = (name: string) => <p>Hello, {name || "Guest"}!</p>
+
+  const n = Math.floor(Math.random() * 10);
+  const threshold = 5;
 
   return (
     <>
       <div>
         <div>{greet(name)}</div>
+
+        {n > threshold && (<p>{n}は {threshold}よりも大きい値です</p>)}
+        {n > threshold || (<p>{n}は{threshold}以下の値です</p>)}
+        <p>{n}は{n % 2 === 0 ? '偶数' : '奇数'}です</p>
+        
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
