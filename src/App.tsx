@@ -38,6 +38,16 @@ function App() {
             <li>Hello, {name}!</li>
           ))}
         </ul>
+
+        <div>
+          {
+            // インラインコメント
+          }
+          {/*
+            複数行に
+            渡るコメント
+          */}
+        </div>
         
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
